@@ -1,27 +1,30 @@
-/* Agrega tus estilos específicos para la navegación aquí */
+/* Estilos específicos para la navegación */
 nav {
-    background-color: #333;
-    padding: 1rem 0;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-  }
-  
-  nav li {
-    margin-right: 20px;
-  }
-  
-  nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
+  background-color: #333;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s; /* Agregamos una transición suave */
+}
+
+nav li a:hover,
+nav li a:active {
+  text-decoration: underline;
+  background-color: #555; /* Cambio de color de fondo en hover y active */
+  color: #fff; /* Cambio de color de texto en hover y active */
+}

@@ -1,4 +1,5 @@
 export const routerPath = {
     root: "/",
-    about: "about"
+    about: "about",
+    exampleOne3FR: "exampleOne3FR"
 }

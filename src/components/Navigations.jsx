@@ -14,6 +14,11 @@ const Navigations = () => {
           <Link to={routerPath.about}>About</Link>
         </li>
       </ul>
+      <ul>
+        <li>
+          <Link to={routerPath.exampleOne3FR}>Ejemplo 1</Link>
+        </li>
+      </ul>
     </nav>
   );
 };
