@@ -1,14 +1,15 @@
 import { Link } from "react-router-dom";
+import { routerPath } from "../router/pathRouter";
 
 const Navigations = () => {
   return (
     <nav>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to={routerPath.root}>Home</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to={routerPath.about}>About</Link>
         </li>
       </ul>
     </nav>
