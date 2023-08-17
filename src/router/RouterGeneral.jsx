@@ -4,24 +4,23 @@ import { routerPath } from "./pathRouter";
 import { ExamplesOne } from "../Examples";
 import { About, Home } from "../pages";
 
-
-const RouterGeneral = ({children}) => {
-  return (
-    <Router>
-      {children}
-      <div>
-        <Routes>
-          <Route path={routerPath.root} element={<Home />} />
-          <Route path={routerPath.about} element={<About />} />
-          <Route path={routerPath.exampleOne3FR} element={<ExamplesOne />} />
-        </Routes>
-      </div>
-    </Router>
-  );
+const RouterGeneral = ({ children }) => {
+	return (
+		<Router>
+			{children}
+			<div style={{ height: "85vh" }}>
+				<Routes>
+					<Route path={routerPath.root} element={<Home />} />
+					<Route path={routerPath.about} element={<About />} />
+					<Route path={routerPath.exampleOne3FR} element={<ExamplesOne />} />
+				</Routes>
+			</div>
+		</Router>
+	);
 };
 
 RouterGeneral.propTypes = {
-  children: PropTypes.node.isRequired, // Validates that children is a React node
+	children: PropTypes.node.isRequired, // Validates that children is a React node
 };
 
 export default RouterGeneral;
