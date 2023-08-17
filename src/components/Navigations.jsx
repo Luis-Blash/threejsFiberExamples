@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { routerPath } from "../router/pathRouter";
 
+import "../styles/Navigations.css"
+
 const Navigations = () => {
   return (
     <nav>
