@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import PropTypes from "prop-types";
 import { routerPath } from "./pathRouter";
-import { ExamplesOne } from "../Examples";
+import { ExampleTwo, ExamplesOne } from "../Examples";
 import { About, Home } from "../pages";
 
 const RouterGeneral = ({ children }) => {
@@ -13,6 +13,7 @@ const RouterGeneral = ({ children }) => {
 					<Route path={routerPath.root} element={<Home />} />
 					<Route path={routerPath.about} element={<About />} />
 					<Route path={routerPath.exampleOne3FR} element={<ExamplesOne />} />
+					<Route path={routerPath.exampleTwo3FR} element={<ExampleTwo />} />
 				</Routes>
 			</div>
 		</Router>
