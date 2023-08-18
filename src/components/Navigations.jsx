@@ -24,7 +24,7 @@ const Navigations = () => {
 						{ name: "Custom Object", route: routerPath.exampleTwo4FR },
 					]}
 				/>
-				<NavigationLession name="Mostrar Drei" lessions={[]} />
+				<NavigationLession name="Mostrar Drei" lessions={[{ name: "Drei", route: routerPath.exampleDrei1 }]} />
 			</div>
 		</nav>
 	);

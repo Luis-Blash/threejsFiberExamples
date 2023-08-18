@@ -1,9 +1,8 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import PropTypes from "prop-types";
 import { routerPath } from "./pathRouter";
-import { ExampleTwo, ExamplesOne } from "../Examples";
+import { ExampleDreiOne, ExampleThree, ExampleTwo, ExamplesOne } from "../Examples";
 import { About, Home } from "../pages";
-import ExampleThree from "../Examples/ExampleThree/ExampleThree";
 
 const RouterGeneral = ({ children }) => {
 	return (
@@ -16,6 +15,7 @@ const RouterGeneral = ({ children }) => {
 					<Route path={routerPath.exampleOne3FR} element={<ExamplesOne />} />
 					<Route path={routerPath.exampleTwo3FR} element={<ExampleTwo />} />
 					<Route path={routerPath.exampleTwo4FR} element={<ExampleThree />} />
+					<Route path={routerPath.exampleDrei1} element={<ExampleDreiOne />} />
 				</Routes>
 			</div>
 		</Router>
