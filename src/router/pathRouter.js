@@ -3,4 +3,5 @@ export const routerPath = {
 	about: "about",
 	exampleOne3FR: "exampleOne3FR",
 	exampleTwo3FR: "exampleTwo3FR",
+	exampleTwo4FR: "exampleTwo4FR",
 };

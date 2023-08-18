@@ -21,6 +21,9 @@ const Navigations = () => {
 				<li>
 					<Link to={routerPath.exampleTwo3FR}>Orbit controller</Link>
 				</li>
+				<li>
+					<Link to={routerPath.exampleTwo4FR}>Custom Object</Link>
+				</li>
 			</ul>
 		</nav>
 	);
