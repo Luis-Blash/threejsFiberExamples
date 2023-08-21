@@ -5,4 +5,5 @@ export const routerPath = {
 	exampleTwo3FR: "exampleTwo3FR",
 	exampleTwo4FR: "exampleTwo4FR",
 	exampleDrei1: "exampleDrei1",
+	exampleHtml: "ExampleHtml",
 };

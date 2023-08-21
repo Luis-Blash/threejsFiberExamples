@@ -25,6 +25,7 @@ const Navigations = () => {
 					]}
 				/>
 				<NavigationLession name="Mostrar Drei" lessions={[{ name: "Transform Controls", route: routerPath.exampleDrei1 }]} />
+				<NavigationLession name="HTML" lessions={[{ name: "HTML en canvas", route: routerPath.exampleHtml }]} />
 			</div>
 		</nav>
 	);
