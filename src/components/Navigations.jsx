@@ -25,7 +25,13 @@ const Navigations = () => {
 					]}
 				/>
 				<NavigationLession name="Mostrar Drei" lessions={[{ name: "Transform Controls", route: routerPath.exampleDrei1 }]} />
-				<NavigationLession name="HTML" lessions={[{ name: "HTML en canvas", route: routerPath.exampleHtml }]} />
+				<NavigationLession
+					name="Extras"
+					lessions={[
+						{ name: "HTML en canvas", route: routerPath.exampleHtml },
+						{ name: "Leva", route: routerPath.exampleLeva },
+					]}
+				/>
 			</div>
 		</nav>
 	);
