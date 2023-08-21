@@ -29,7 +29,7 @@ const Navigations = () => {
 					name="Extras"
 					lessions={[
 						{ name: "HTML en canvas", route: routerPath.exampleHtml },
-						{ name: "Leva", route: routerPath.exampleLeva },
+						{ name: "Leva y perf", route: routerPath.exampleLeva },
 					]}
 				/>
 			</div>
