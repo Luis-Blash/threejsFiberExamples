@@ -17,11 +17,12 @@ const Navigations = () => {
 			</ul>
 			<div style={{ width: "100%", overflow: "hidden", display: "flex", flexGrow: "initial", gap: "16px" }}>
 				<NavigationLession
-					name="Mostrar lecciones iniciales"
+					name="Lecciones"
 					lessions={[
 						{ name: "Scena sencilla, con animacion", route: routerPath.exampleOne3FR },
 						{ name: "Orbit controller", route: routerPath.exampleTwo3FR },
 						{ name: "Custom Object", route: routerPath.exampleTwo4FR },
+						{ name: "Escena", route: routerPath.exampleScene },
 					]}
 				/>
 				<NavigationLession name="Mostrar Drei" lessions={[{ name: "Transform Controls", route: routerPath.exampleDrei1 }]} />
@@ -29,7 +30,7 @@ const Navigations = () => {
 					name="Extras"
 					lessions={[
 						{ name: "HTML en canvas", route: routerPath.exampleHtml },
-						{ name: "Leva y perf", route: routerPath.exampleLeva },
+						{ name: "Debug", route: routerPath.exampleLeva },
 					]}
 				/>
 			</div>

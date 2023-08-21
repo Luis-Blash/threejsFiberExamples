@@ -7,4 +7,5 @@ export const routerPath = {
 	exampleDrei1: "exampleDrei1",
 	exampleHtml: "ExampleHtml",
 	exampleLeva: "exampleLeva",
+	exampleScene: "exampleScene",
 };
