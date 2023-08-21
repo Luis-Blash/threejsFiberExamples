@@ -22,7 +22,7 @@ const Navigations = () => {
 						{ name: "Scena sencilla, con animacion", route: routerPath.exampleOne3FR },
 						{ name: "Orbit controller", route: routerPath.exampleTwo3FR },
 						{ name: "Custom Object", route: routerPath.exampleTwo4FR },
-						{ name: "Escena", route: routerPath.exampleScene },
+						{ name: "Escena, luces y sombras", route: routerPath.exampleScene },
 					]}
 				/>
 				<NavigationLession name="Mostrar Drei" lessions={[{ name: "Transform Controls", route: routerPath.exampleDrei1 }]} />

@@ -6,7 +6,7 @@ import { Perf } from "r3f-perf";
 
 const ExampleLeva = () => {
 	return (
-		<div style={{ height: "100%" }}>
+		<div style={{ height: "100%", overflowY: "scroll" }}>
 			<div style={{ padding: "16px" }}>
 				<p>
 					Mas informacion en{" "}

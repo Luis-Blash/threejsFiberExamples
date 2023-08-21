@@ -8,7 +8,7 @@ const RouterGeneral = ({ children }) => {
 	return (
 		<Router>
 			{children}
-			<div style={{ height: "85vh" }}>
+			<div style={{ height: "100%" }}>
 				<Routes>
 					<Route path={routerPath.root} element={<Home />} />
 					<Route path={routerPath.about} element={<About />} />
