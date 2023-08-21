@@ -8,4 +8,5 @@ export const routerPath = {
 	exampleHtml: "ExampleHtml",
 	exampleLeva: "exampleLeva",
 	exampleScene: "exampleScene",
+	exampleLoad3D: "exampleLoad3D",
 };
