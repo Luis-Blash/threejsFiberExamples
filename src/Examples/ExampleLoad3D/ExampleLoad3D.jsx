@@ -7,7 +7,12 @@ import Models3D from "./Models3D";
 const ExampleLoad3D = () => {
 	return (
 		<div style={{ height: "100%" }}>
-			<Canvas shadows>
+			<Canvas
+				shadows
+				camera={{
+					position: [0, 5, 10],
+				}}
+			>
 				<Perf position="bottom-left" />
 				<OrbitControllsThree />
 				<Models3D />

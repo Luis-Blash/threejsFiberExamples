@@ -19,10 +19,10 @@ const ModeOne = () => {
 	});
 	return (
 		<>
-			<primitive object={model.scene} scale={5} position-y={-1} />
+			{/* casco */}
+			<primitive object={model.scene} scale={5} position={[8, -1, 0]} />
 			{/* hambuergesa */}
 			{/* <primitive object={model.scene} scale={0.35} /> */}
-			{/* casco */}
 		</>
 	);
 };
