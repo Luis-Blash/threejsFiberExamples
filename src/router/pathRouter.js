@@ -9,4 +9,5 @@ export const routerPath = {
 	exampleLeva: "exampleLeva",
 	exampleScene: "exampleScene",
 	exampleLoad3D: "exampleLoad3D",
+	exampleMousePointer: "exampleMousePointer",
 };

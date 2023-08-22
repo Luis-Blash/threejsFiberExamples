@@ -25,7 +25,13 @@ const Navigations = () => {
 						{ name: "Escena, luces y sombras", route: routerPath.exampleScene },
 					]}
 				/>
-				<NavigationLession name="Avanzado" lessions={[{ name: "Modelos 3D", route: routerPath.exampleLoad3D }]} />
+				<NavigationLession
+					name="Avanzado"
+					lessions={[
+						{ name: "Modelos 3D", route: routerPath.exampleLoad3D },
+						{ name: "Mouse pointer (RayCaster)", route: routerPath.exampleMousePointer },
+					]}
+				/>
 				<NavigationLession name="Mostrar Drei" lessions={[{ name: "Transform Controls", route: routerPath.exampleDrei1 }]} />
 				<NavigationLession
 					name="Extras"
