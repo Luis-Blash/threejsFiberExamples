@@ -7,6 +7,7 @@ import {
 	ExampleLeva,
 	ExampleLoad3D,
 	ExampleMousePointer,
+	ExamplePhysics,
 	ExampleScene,
 	ExampleThree,
 	ExampleTwo,
@@ -31,6 +32,7 @@ const RouterGeneral = ({ children }) => {
 					<Route path={routerPath.exampleScene} element={<ExampleScene />} />
 					<Route path={routerPath.exampleLoad3D} element={<ExampleLoad3D />} />
 					<Route path={routerPath.exampleMousePointer} element={<ExampleMousePointer />} />
+					<Route path={routerPath.examplePhysics} element={<ExamplePhysics />} />
 				</Routes>
 			</div>
 		</Router>
